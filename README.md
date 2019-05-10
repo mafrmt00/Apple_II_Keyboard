@@ -14,10 +14,10 @@ Hardware:
 
 Software:
   - Arduino IDE
-  - USB Host Shield Library 2.0 (The modified Version included in theis Repo!)
+  - USB Host Shield Library 2.0 (The modified Version included in this repo!)
   
 ### Installation
-  - Create a folder "Apple_II_Keyboard" under your sketches dir and copy all files from the root dir of this repo there (The dir where the .inop lies). 
+  - Create a folder "Apple_II_Keyboard" under your sketches dir and copy all files from the root dir of this repo there (The dir where the .ino lies). 
   - Copy the "USB_Host_Shield_Library_2.0" dir to you libraries dir.
   - Select Uno as board in the Arduino IDE
   - Use Upload in the Arduino IDE. If you can see some output in the serial monitor as you type everythin works.
@@ -44,4 +44,9 @@ This Table shows how to connect the Apple II Keyboard Connector (A7) to the Ardu
 | 15              | -12V     | NC          |
 | 16              | NC       | NC          |
 
+
+### Setting the Arduino USB Host Shield for 5V operation
+
+![Correctly jumpered Host Shield](https://github.com/mafrmt00/Apple_II_Keyboard/blob/master/pictures/USB_Host_Shield.jpg "Correctly jumpered Host Shield")
+Make sure to set the solder jumpers as shoen in the picture. The Apple II and the UNO operate at 5V.
 
