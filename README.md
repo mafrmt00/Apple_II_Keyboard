@@ -1,5 +1,11 @@
 # USB Apple II Keyboard
-Arduino Sketch to simulate a Apple II ASCII Keyboard
+Arduino Sketch to use a USB keyboard with an Apple II as ASCII keyboard.
+
+Features:
+  - Upper and Lowercase (Shift and Caps work), for older Models and full compatibility use caps.
+  - Selectable Layout (Currently DE and US) toggle via WIN + SPACE. 
+  - Providing reset to the Apple II. Used via CTRL + ALT + DEL
+  - Bash like backscroll capability. Use up and down arrow keys to scroll through your last commands.
 
 ![Apple II USB Keyboard Interface](https://github.com/mafrmt00/Apple_II_Keyboard/blob/master/pictures/Keyb_Adapter.jpg "The assembled interface")
 
