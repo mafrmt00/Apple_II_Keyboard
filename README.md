@@ -56,3 +56,5 @@ This Table shows how to connect the Apple II Keyboard Connector (A7) to the Ardu
 ![Correctly jumpered Host Shield](https://github.com/mafrmt00/Apple_II_Keyboard/blob/master/pictures/USB_Host_Shield.jpg "Correctly jumpered Host Shield")
 Make sure to set the solder jumpers as shoen in the picture. The Apple II and the UNO operate at 5V.
 
+### License
+The content of this repos is published under the GNU GENERAL PUBLIC LICENSE Version 2
